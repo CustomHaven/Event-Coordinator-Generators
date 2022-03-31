@@ -2,8 +2,10 @@
 guests = {}
 def read_guestlist(file_name):
   text_file = open(file_name,'r')
+#   Q1
   val = None
   while True:
+    #   Q1
     if val is not None:
       line_data = val.split(",")
       name = line_data[0]
